@@ -11,12 +11,12 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/sqlc-dev/sqlc/internal/analysis"
-	"github.com/sqlc-dev/sqlc/internal/cache"
-	"github.com/sqlc-dev/sqlc/internal/config"
-	"github.com/sqlc-dev/sqlc/internal/info"
-	"github.com/sqlc-dev/sqlc/internal/sql/ast"
-	"github.com/sqlc-dev/sqlc/internal/sql/named"
+	"github.com/ShadowBr0ther/sqlc/internal/analysis"
+	"github.com/ShadowBr0ther/sqlc/internal/cache"
+	"github.com/ShadowBr0ther/sqlc/internal/config"
+	"github.com/ShadowBr0ther/sqlc/internal/info"
+	"github.com/ShadowBr0ther/sqlc/internal/sql/ast"
+	"github.com/ShadowBr0ther/sqlc/internal/sql/named"
 )
 
 type CachedAnalyzer struct {
